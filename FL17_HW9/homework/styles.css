@@ -1,0 +1,117 @@
+/* START: Task 1 Styles */
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    width: 33%;
+    height: 33%;
+}
+
+td { 
+	border-spacing: 0;
+    margin: 0;
+    padding: 22px;
+}
+
+table {
+    height: 360px;
+    width: 360px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    padding-top: 44px;
+} 
+
+input[type="text"] {
+    border: 2px solid black;
+    padding: 11px;
+    width: 250px;
+}
+
+input[type="text"]::placeholder {
+    font-size: 12px;
+}
+
+#task2 button {
+    border: 2px solid grey;
+    padding: 11px;
+}
+
+.valid {
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    width: 311px;
+    margin-bottom: 11px;
+    padding: 0 11px;
+}
+
+.invalid {
+    border: 2px solid grey;
+    background-color: pink;
+    color: white;
+    width: 311px;
+    margin-bottom: 11px;
+    padding: 0 11px;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+#task3 {
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+img#court {
+    width: 600px;
+    height: 330px;
+    position: relative;
+}
+
+#ball {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: calc(333px/2 - 20px);
+    left: calc(600px/2 - 20px);
+    background-position: center;
+    background-image: url('./assets/ball.png');
+    background-size: cover;
+    transition: all 1s;
+}
+
+.img-block {
+    position: relative;
+}
+
+.team-score {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.score-message {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+/* END: Task 3 Styles */

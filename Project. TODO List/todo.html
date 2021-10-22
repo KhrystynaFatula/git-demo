@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatib le" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputSelectDiv">
+            <div class="inputDiv">
+                <input type="text" id="inputID" placeholder="CREATE list">
+                <button type="submit" id="addToDropDown">ADD</button>
+            </div>
+            <div class="selectDiv">
+                <select id="addInputToSelect" name='one'>
+            <option value="task1" selected>Choose TODO List</option>
+            </div>
+            </select>
+            </div>
+        </div>
+        <h1 id='mainHeading'> ToDo List Name </h1>
+
+        <form class="todo-form">
+            <input type="text" class="todo-input" placeholder="Add a TODO">
+            <button type="submit" class="add-button">ADD</button>
+        </form>
+
+        <ul class="todo-items">
+            <li class="item" data-key='1594003133171'>
+                <input type="checkbox" class="checkbox">
+                <button class="delete-button">X</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="../Project/todo.js"></script>
+</body>
+
+</html>
